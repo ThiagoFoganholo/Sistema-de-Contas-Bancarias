@@ -213,3 +213,65 @@ void alterar(Conta *contas, int totalContas) {
 
     } while (1);
 }
+
+void sacar(Conta *contas, int totalContas){
+
+    int numeroConta;
+    float valor;
+
+    do{
+        printf("Digite o numero da conta para saque (DIGITE 9999 PARA VOLTAR AO MENU): ");
+        if (scanf("%d", &numeroConta) != 1)
+        {
+            printf("ERRO. Digite apenas numeros.\n");
+            while (getchar() != '\n'); // Limpa o buffer de entrada
+            continue;
+        }
+
+        if (numeroConta == 9999) // Se digitar 9999, retorna para o menu
+        {
+            return; // Retorna ao menu
+        }
+
+        // Loop for para percorrer todas as contas cadastradas e encontrar a que tem o número digitado pelo usuário
+        for (int i = 0; i < totalContas; i++){
+            if (contas[i].numero == numeroConta){
+                do{
+                    printf("Digite o valor a ser sacado (DIGITE 9999 PARA VOLTAR AO MENU): ");
+                    if (scanf("%f", &valor) != 1) // Verifica se o usuário digitou um valor válido
+                    {
+                        printf("ERRO. Digite apenas numeros positivos.\n");
+                        while (getchar() != '\n'); // Limpa o buffer de entrada
+                        continue;
+                    }
+
+                    if (valor == 9999) // Se digitar 9999, retorna para o menu
+                    {
+                        return; // Retorna ao menu
+                    }
+
+                    if (valor > 0 && valor <= contas[i].saldo)//verifica se o valor e maior que zero e menor ou igual ao saldo
+                    {
+                        contas[i].saldo -= valor;//subtrai o valor do saldo
+                        printf("\nSaque realizado com sucesso.\n");
+                        return;
+                    }
+
+                    else if (valor == 0)//verifica se e zero
+                    {
+                        printf("Valor de saque nao pode ser zero.\n");
+                    }
+
+                    else{
+                        printf("Valor invalido para saque.\n");
+                    }
+
+                } while (1);//loop ate o valor de ser sacado seja valido
+            }
+        }
+
+        printf("Conta nao existente.\n");
+    } while (1);// loop ate ter um valor valido
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
