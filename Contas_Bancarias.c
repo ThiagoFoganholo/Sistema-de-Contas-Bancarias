@@ -213,3 +213,121 @@ void alterar(Conta *contas, int totalContas) {
 
     } while (1);
 }
+
+void procurar(Conta *contas, int totalContas){
+
+    int numeroConta;
+    char entrada[20];
+
+    do{
+        printf("Digite o numero da conta para procurar (DIGITE 9999 PARA VOLTAR AO MENU): ");
+
+        if (scanf("%s", entrada) != 1)// Verifica se a entrada é um inteiro válido.
+        {
+            printf("ERRO. Entrada invalida.\n");
+            while (getchar() != '\n'); // Limpa o buffer de entrada
+            continue;
+        }
+
+        if (strcmp(entrada, "9999") == 0) // Verifica se o usuário digitou 9999 para voltar ao menu
+        {
+            return; // Retorna ao menu
+        }
+
+        sscanf(entrada, "%d", &numeroConta);// Converte a entrada em número inteiro.
+
+        int contaEncontrada = 0;
+        for (int i = 0; i < totalContas; i++)// Inicia um loop que percorre todas as contas até encontrar a conta correspondente
+        {
+            if (contas[i].numero == numeroConta){
+                //informaçoes da conta encontrada
+                printf("Numero da conta: %d\n", contas[i].numero);
+                printf("Nome do cliente: %s\n", contas[i].cliente);
+                // printf("tipo do cliente: %d\n", contas[i].especial);
+
+                if (contas[i].especial == 1)// verificar o tipo de conta
+                {
+                    printf("Tipo de cliente: 1 Especial\n");
+
+                }else{
+                    printf("Tipo de cliente: 0 Normal\n");
+                }
+
+                printf("Saldo: %.2f\n\n", contas[i].saldo);
+                contaEncontrada = 1;
+                break;
+            }
+        }
+
+        if (contaEncontrada)//verifica se a cont foi encontrada
+        {
+            break;
+        }
+
+        else{
+            printf("Conta nao existe.\n");
+        }
+
+    } while (1);// loop ate uma entrada seja valida
+}
+
+void depositar(Conta *contas, int totalContas){
+
+    int numeroConta;
+    float valor;
+
+    do{
+        printf("Digite o numero da conta para deposito (DIGITE 9999 PARA VOLTAR AO MENU): ");
+        if (scanf("%d", &numeroConta) != 1)
+        {
+            printf("ERRO. Digite apenas numeros.\n");
+            while (getchar() != '\n'); // Limpa o buffer de entrada
+            continue;
+        }
+
+        if (numeroConta == 9999)// Verifica se o usuário digitou 9999 para voltar ao menu
+        {
+            return; // Retorna ao menu
+        }
+
+        // Percorre todas as contas cadastradas para encontrar
+        for (int i = 0; i < totalContas; i++)
+        {
+            if (contas[i].numero == numeroConta)
+            {
+                do{
+                    printf("Digite o valor a ser depositado (DIGITE 9999 PARA VOLTAR AO MENU): ");
+                    if (scanf("%f", &valor) != 1)// Verifica se a entrada é um número positivo válido.
+                    {
+                        printf("ERRO. Digite apenas numeros positivos.\n");
+                        while (getchar() != '\n'); // Limpa o buffer de entrada
+                        continue;
+                    }
+
+                    if (valor == 9999)// Verifica se o usuário digitou 9999 para voltar ao menu
+                    {
+                        return; // Retorna ao menu
+                    }
+
+                    // Deposita o valor na conta e informa ao usuário
+                    if (valor > 0)
+                    {
+                        contas[i].saldo += valor;
+                        printf("\nDeposito realizado com sucesso.\n");
+                        return;
+                    }
+
+                    else if (valor == 0)    //verifica se o valor e zero
+                    {
+                        printf("Valor de deposito nao pode ser zero.\n");
+                    }
+                    else{
+                        printf("Valor invalido para deposito.\n");
+                    }
+                }while (1);
+            }
+        }
+
+        printf("Conta nao existente.\n");
+    }while (1);// loop ate a entrada valida
+}
