@@ -336,3 +336,66 @@ void sacar(Conta *contas, int totalContas){
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
+
+void depositar(Conta *contas, int totalContas){
+
+    int numeroConta;
+    float valor;
+
+    do{
+        printf("Digite o numero da conta para deposito (DIGITE 9999 PARA VOLTAR AO MENU): ");
+        if (scanf("%d", &numeroConta) != 1)
+        {
+            printf("ERRO. Digite apenas numeros.\n");
+            while (getchar() != '\n'); // Limpa o buffer de entrada
+            continue;
+        }
+
+        if (numeroConta == 9999)// Verifica se o usuário digitou 9999 para voltar ao menu
+        {
+            return; // Retorna ao menu
+        }
+
+        // Percorre todas as contas cadastradas para encontrar
+        for (int i = 0; i < totalContas; i++)
+        {
+            if (contas[i].numero == numeroConta)
+            {
+                do{
+                    printf("Digite o valor a ser depositado (DIGITE 9999 PARA VOLTAR AO MENU): ");
+                    if (scanf("%f", &valor) != 1)// Verifica se a entrada é um número positivo válido.
+                    {
+                        printf("ERRO. Digite apenas numeros positivos.\n");
+                        while (getchar() != '\n'); // Limpa o buffer de entrada
+                        continue;
+                    }
+
+                    if (valor == 9999)// Verifica se o usuário digitou 9999 para voltar ao menu
+                    {
+                        return; // Retorna ao menu
+                    }
+
+                    // Deposita o valor na conta e informa ao usuário
+                    if (valor > 0)
+                    {
+                        contas[i].saldo += valor;
+                        printf("\nDeposito realizado com sucesso.\n");
+                        return;
+                    }
+
+                    else if (valor == 0)    //verifica se o valor e zero
+                    {
+                        printf("Valor de deposito nao pode ser zero.\n");
+                    }
+                    else{
+                        printf("Valor invalido para deposito.\n");
+                    }
+                }while (1);
+            }
+        }
+
+        printf("Conta nao existente.\n");
+    }while (1);// loop ate a entrada valida
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
