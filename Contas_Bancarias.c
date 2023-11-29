@@ -214,24 +214,80 @@ void alterar(Conta *contas, int totalContas) {
     } while (1);
 }
 
+void procurar(Conta *contas, int totalContas) {
+    int numeroConta;
+    char entrada[20];
+
+    do {
+        printf("Digite o numero da conta para procurar (DIGITE 9999 PARA VOLTAR AO MENU): ");
+
+        if (scanf("%s", entrada) != 1) {
+            printf("ERRO. Entrada invalida.\n");
+            while (getchar() != '\n');
+            continue;
+        }
+
+        if (strcmp(entrada, "9999") == 0) {
+            return;
+        }
+
+        sscanf(entrada, "%d", &numeroConta);
+
+        int contaEncontrada = 0;
+        for (int i = 0; i < totalContas; i++) {
+            if (contas[i].numero == numeroConta) {
+                printf("Numero da conta: %d\n", contas[i].numero);
+                printf("Nome do cliente: %s\n", contas[i].cliente);
+
+                if (contas[i].especial == 1) {
+                    printf("Tipo de cliente: 1 Especial\n");
+                } else {
+                    printf("Tipo de cliente: 0 Normal\n");
+                }
+
+                printf("Saldo: %.2f\n\n", contas[i].saldo);
+                contaEncontrada = 1;
+                break;
+            }
+        }
+
+        if (contaEncontrada) {
+            break;
+        } else {
+            printf("Conta nao existe.\n");
+        }
+
+    } while (1);
+}
+
 void sacar(Conta *contas, int totalContas){
 
     int numeroConta;
     float valor;
 
     do{
-        printf("Digite o numero da conta para saque (DIGITE 9999 PARA VOLTAR AO MENU): ");
+
+        printf("Digite o numero da conta para deposito (DIGITE 9999 PARA VOLTAR AO MENU): ");
         if (scanf("%d", &numeroConta) != 1)
         {
             printf("ERRO. Digite apenas numeros.\n");
             while (getchar() != '\n'); // Limpa o buffer de entrada
             continue;
         }
-
         if (numeroConta == 9999) // Se digitar 9999, retorna para o menu
         {
             return; // Retorna ao menu
         }
+
+
+        // Percorre todas as contas cadastradas para encontrar
+        for (int i = 0; i < totalContas; i++)
+        {
+            if (contas[i].numero == numeroConta)
+            {
+                do{
+                    printf("Digite o valor a ser depositado (DIGITE 9999 PARA VOLTAR AO MENU): ");
+                    if (scanf("%f", &valor) != 1)// Verifica se a entrada é um número positivo válido.
 
         // Loop for para percorrer todas as contas cadastradas e encontrar a que tem o número digitado pelo usuário
         for (int i = 0; i < totalContas; i++){
@@ -239,17 +295,35 @@ void sacar(Conta *contas, int totalContas){
                 do{
                     printf("Digite o valor a ser sacado (DIGITE 9999 PARA VOLTAR AO MENU): ");
                     if (scanf("%f", &valor) != 1) // Verifica se o usuário digitou um valor válido
+
                     {
                         printf("ERRO. Digite apenas numeros positivos.\n");
                         while (getchar() != '\n'); // Limpa o buffer de entrada
                         continue;
                     }
-
                     if (valor == 9999) // Se digitar 9999, retorna para o menu
+
                     {
                         return; // Retorna ao menu
                     }
+                  
+                    // Deposita o valor na conta e informa ao usuário
+                    if (valor > 0)
+                    {
+                        contas[i].saldo += valor;
+                        printf("\nDeposito realizado com sucesso.\n");
+                        return;
+                    }
 
+                    else if (valor == 0)    //verifica se o valor e zero
+                    {
+                        printf("Valor de deposito nao pode ser zero.\n");
+                    }
+                    else{
+                        printf("Valor invalido para deposito.\n");
+                    }
+                }while (1);
+              
                     if (valor > 0 && valor <= contas[i].saldo)//verifica se o valor e maior que zero e menor ou igual ao saldo
                     {
                         contas[i].saldo -= valor;//subtrai o valor do saldo
@@ -271,7 +345,8 @@ void sacar(Conta *contas, int totalContas){
         }
 
         printf("Conta nao existente.\n");
-    } while (1);// loop ate ter um valor valido
-}
+              
+    }while (1);// loop ate a entrada valida
+
 
 /*-------------------------------------------------------------------------------------------------------------*/
