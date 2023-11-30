@@ -399,3 +399,55 @@ void depositar(Conta *contas, int totalContas){
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
+
+void imprimir(Conta *contas, int totalContas){
+
+    int numeroConta;  // variavel paraa armazenar o numero da conta para impressão
+    char entrada[20]; // string para receber a entradaa do usuario
+
+    do{ // inicio do loop
+        printf("Digite o numero da conta para imprimir os dados (DIGITE 9999 PARA VOLTAR AO MENU): ");
+        scanf(" %s", entrada); // le a entrada do usuario
+
+        if (strcmp(entrada, "9999") == 0) // para verificar foi digitado o codigo para voltar ao menu
+        {
+            return; // Retorna ao menu
+        }
+
+        sscanf(entrada, "%d", &numeroConta); // converte a entrada de string para inteiro
+
+        int contaEncontrada = 0;              // variavel que indica se a conta foi encontrada
+        for (int i = 0; i < totalContas; i++) // for para percorrer as contas
+        {
+            if (contas[i].numero == numeroConta) // se conta atual é igual a conta digitada pelo usuario
+            {
+                printf("Numero da conta: %d\n", contas[i].numero);  // imprime o numero da conta
+                printf("Nome do cliente: %s\n", contas[i].cliente); // imprime o nome do cliente
+
+                if (contas[i].especial == 1)    // se o tipo de cliente é especial
+                {
+                    printf("Tipo de cliente: 1 Especial\n");
+                }
+
+                else{
+                    printf("Tipo de cliente: 0 Normal\n");
+                }
+
+                printf("Saldo: %.2f\n", contas[i].saldo); // imprime o saldo de cliente
+                contaEncontrada = 1;                      // define como verdadeiro para cont encontrada
+                break;                                    // sai do loop
+            }
+        }
+
+        if (contaEncontrada) // pausa o programa se a conta foi encontrada
+        {
+            printf("Conta encontrada.\n");
+            break;
+        }
+
+        else{
+            printf("Conta nao existe.\n"); // mensagem de alerta
+        }
+
+    }while (1);
+}

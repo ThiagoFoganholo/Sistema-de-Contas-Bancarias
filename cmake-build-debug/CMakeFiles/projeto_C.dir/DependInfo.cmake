@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/abdie/OneDrive/Área de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/main.c" "CMakeFiles/projeto_C.dir/main.c.obj" "gcc" "CMakeFiles/projeto_C.dir/main.c.obj.d"
+  "C:/Users/tadeu/Desktop/Trabalho Maromo/Sistema-de-Contas-Bancarias/main.c" "CMakeFiles/projeto_C.dir/main.c.obj" "gcc" "CMakeFiles/projeto_C.dir/main.c.obj.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
