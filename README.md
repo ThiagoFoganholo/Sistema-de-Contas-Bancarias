@@ -99,7 +99,7 @@ Nós estamos na versão 1.0.0. Para as versões disponíveis, observe as [reposi
 * **Desenvolvedor** - *Trabalho de desenvolvimento do código* - [Gustavo Barros](https://github.com/gubarros92) ;
 *  **Desenvolvedor** - *Trabalho de desenvolvimento do código* - [Rafael Queiroz](https://github.com/RafaQueirox) ;
 * **Desenvolvedor** - *Trabalho de desenvolvimento do código* - [Tadeu Bordignon](https://github.com/tadeurb) ;
-* **Desenvolvedor e QA** - *Trabalho de desenvolvimento do código e revisão* - [Thiago Foganholo](https://github.com/ThiagoFoganholo) ;
+* **Desenvolvedor e QA** - *Trabalho de desenvolvimento do código, revisão e teste* - [Thiago Foganholo](https://github.com/ThiagoFoganholo) ;
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/ThiagoFoganholo/Sistema-de-Contas-Bancarias/settings/access) que participaram deste projeto.
 
