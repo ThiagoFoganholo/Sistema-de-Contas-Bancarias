@@ -400,8 +400,6 @@ void depositar(Conta *contas, int totalContas){
 
 /*-------------------------------------------------------------------------------------------------------------*/
 
-/*-------------------------------------------------------------------------------------------------------------*/
-
 void imprimir(Conta *contas, int totalContas){
 
     int numeroConta;  // variavel paraa armazenar o numero da conta para impressão
