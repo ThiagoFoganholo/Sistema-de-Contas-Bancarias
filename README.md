@@ -52,7 +52,7 @@ Para iniciar a execução do projeto basta dar um click no triangulo verde no ca
 
 ![imagem 1](https://raw.githubusercontent.com/ThiagoFoganholo/Sistema-de-Contas-Bancarias/main/Downlode%20prints/1.png)
 
-Agora aparecerá o menu onde você poderá fazer as ações que for necessário, como mostra na imagem abaixo :
+Agora aparecerá o menu onde você poderá fazer as ações que for necessário, sendo possivel fazer a inserção de um novo cliente, a alteração de seus dados, a procurar de uma conta específica, listar todas as contas cadastradas, depositar e sacar dinheiro da conta, imprimir todos os dados das contas e por ultimo verificar o saldo geral, como mostra na imagem abaixo :
 
 ![imagem 2](https://raw.githubusercontent.com/ThiagoFoganholo/Sistema-de-Contas-Bancarias/main/Downlode%20prints/2.png)
 
