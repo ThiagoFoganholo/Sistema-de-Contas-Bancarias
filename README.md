@@ -57,7 +57,8 @@ Agora, você terá acesso ao menu, onde poderá realizar as ações necessárias
 ![imagem 2](https://raw.githubusercontent.com/ThiagoFoganholo/Sistema-de-Contas-Bancarias/main/Downlode%20prints/2.png)
 
 ## 📹 Vídeo da equipe explicando o projeto
-[video](colocar link do vídeo aqui)
+[video 1](https://www.youtube.com/watch?v=lbHJ74EuPE8)
+[video 2](https://www.youtube.com/watch?v=2yNvXDcZyE0)
 
 ## ⌨️ Todas as funções do programa
 
