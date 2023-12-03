@@ -451,3 +451,16 @@ void imprimir(Conta *contas, int totalContas){
 
     }while (1);
 }
+/*-------------------------------------------------------------------------------------------------------------*/
+
+void saldoGeral(Conta *contas, int totalContas){
+
+    float saldoTotal = 0; // inicia um variavel para armazenar o saldo total
+    for (int i = 0; i < totalContas; i++) // loop percorre todas as contas
+    {
+        saldoTotal += contas[i].saldo; // A soma de todos os saldos
+    }
+    printf("Saldo total de todas as contas: %.2f\n", saldoTotal);
+    return;
+
+}
