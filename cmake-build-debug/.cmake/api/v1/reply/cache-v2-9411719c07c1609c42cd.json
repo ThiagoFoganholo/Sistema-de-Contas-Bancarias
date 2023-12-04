@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug"
+			"value" : "c:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -547,7 +547,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias"
+			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/projeto_C"
+			"value" : "C:/Program Files (x86)/Sistemas_de_Contas_Bancarias"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -779,7 +779,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "projeto_C"
+			"value" : "Sistemas_de_Contas_Bancarias"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1158,19 +1158,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "projeto_C_BINARY_DIR",
+			"name" : "Sistemas_de_Contas_Bancarias_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1179,10 +1167,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug"
+			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias/cmake-build-debug"
 		},
 		{
-			"name" : "projeto_C_IS_TOP_LEVEL",
+			"name" : "Sistemas_de_Contas_Bancarias_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1194,7 +1182,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "projeto_C_SOURCE_DIR",
+			"name" : "Sistemas_de_Contas_Bancarias_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1203,7 +1191,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias"
+			"value" : "C:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

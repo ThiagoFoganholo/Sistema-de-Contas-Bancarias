@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Thiago\Desktop\Nova pasta\Sistema-de-Contas-Bancarias"
+CMAKE_SOURCE_DIR = "C:\Users\Thiago\Desktop\Nova pasta\Sistemas de Contas Bancarias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Thiago\Desktop\Nova pasta\Sistema-de-Contas-Bancarias\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Thiago\Desktop\Nova pasta\Sistemas de Contas Bancarias\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thiago\Desktop\Nova pasta\Sistema-de-Contas-Bancarias\cmake-build-debug\CMakeFiles" "C:\Users\Thiago\Desktop\Nova pasta\Sistema-de-Contas-Bancarias\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thiago\Desktop\Nova pasta\Sistemas de Contas Bancarias\cmake-build-debug\CMakeFiles" "C:\Users\Thiago\Desktop\Nova pasta\Sistemas de Contas Bancarias\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thiago\Desktop\Nova pasta\Sistema-de-Contas-Bancarias\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thiago\Desktop\Nova pasta\Sistemas de Contas Bancarias\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named projeto_C
+# Target rules for targets named Sistemas_de_Contas_Bancarias
 
 # Build rule for target.
-projeto_C: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 projeto_C
-.PHONY : projeto_C
+Sistemas_de_Contas_Bancarias: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sistemas_de_Contas_Bancarias
+.PHONY : Sistemas_de_Contas_Bancarias
 
 # fast build rule for target.
-projeto_C/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/build
-.PHONY : projeto_C/fast
+Sistemas_de_Contas_Bancarias/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/build
+.PHONY : Sistemas_de_Contas_Bancarias/fast
 
 Contas_Bancarias.obj: Contas_Bancarias.c.obj
 .PHONY : Contas_Bancarias.obj
 
 # target to build an object file
 Contas_Bancarias.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/Contas_Bancarias.c.obj
 .PHONY : Contas_Bancarias.c.obj
 
 Contas_Bancarias.i: Contas_Bancarias.c.i
@@ -141,7 +141,7 @@ Contas_Bancarias.i: Contas_Bancarias.c.i
 
 # target to preprocess a source file
 Contas_Bancarias.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/Contas_Bancarias.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/Contas_Bancarias.c.i
 .PHONY : Contas_Bancarias.c.i
 
 Contas_Bancarias.s: Contas_Bancarias.c.s
@@ -149,7 +149,7 @@ Contas_Bancarias.s: Contas_Bancarias.c.s
 
 # target to generate assembly for a file
 Contas_Bancarias.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/Contas_Bancarias.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/Contas_Bancarias.c.s
 .PHONY : Contas_Bancarias.c.s
 
 main.obj: main.c.obj
@@ -157,7 +157,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -165,7 +165,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -173,7 +173,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projeto_C.dir\build.make CMakeFiles/projeto_C.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sistemas_de_Contas_Bancarias.dir\build.make CMakeFiles/Sistemas_de_Contas_Bancarias.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... projeto_C
+	@echo ... Sistemas_de_Contas_Bancarias
 	@echo ... Contas_Bancarias.obj
 	@echo ... Contas_Bancarias.i
 	@echo ... Contas_Bancarias.s

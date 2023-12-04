@@ -1,5 +1,5 @@
-CMakeFiles/projeto_C.dir/main.c.obj: \
- C:\Users\Thiago\Desktop\Nova\ pasta\Sistema-de-Contas-Bancarias\main.c \
+CMakeFiles/Sistemas_de_Contas_Bancarias.dir/main.c.obj: \
+ C:\Users\Thiago\Desktop\Nova\ pasta\Sistemas\ de\ Contas\ Bancarias\main.c \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -21,4 +21,4 @@ CMakeFiles/projeto_C.dir/main.c.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/errno.h \
- C:\Users\Thiago\Desktop\Nova\ pasta\Sistema-de-Contas-Bancarias\Contas_Bancarias.h
+ C:\Users\Thiago\Desktop\Nova\ pasta\Sistemas\ de\ Contas\ Bancarias\Contas_Bancarias.h
