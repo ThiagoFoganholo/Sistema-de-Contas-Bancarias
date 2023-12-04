@@ -1,3 +1,0 @@
-C:/Users/tadeu/Desktop/Trabalho Maromo/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/projeto_C.dir
-C:/Users/tadeu/Desktop/Trabalho Maromo/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tadeu/Desktop/Trabalho Maromo/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/rebuild_cache.dir
