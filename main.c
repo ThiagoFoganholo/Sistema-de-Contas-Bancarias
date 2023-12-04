@@ -85,4 +85,3 @@ int main() {
     printf("Programa encerrado.\n");
     return 0;
 }
-

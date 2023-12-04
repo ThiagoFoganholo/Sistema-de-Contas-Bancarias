@@ -27,7 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/CMakeLists.txt"
+  "C:/Users/Thiago/Desktop/Nova pasta/Sistemas de Contas Bancarias/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
@@ -46,5 +46,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/projeto_C.dir/DependInfo.cmake"
+  "CMakeFiles/Sistemas_de_Contas_Bancarias.dir/DependInfo.cmake"
   )

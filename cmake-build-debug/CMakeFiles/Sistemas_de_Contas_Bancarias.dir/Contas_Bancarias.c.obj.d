@@ -1,6 +1,6 @@
-CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj: \
- C:\Users\Thiago\Desktop\Nova\ pasta\Sistema-de-Contas-Bancarias\Contas_Bancarias.c \
- C:\Users\Thiago\Desktop\Nova\ pasta\Sistema-de-Contas-Bancarias\Contas_Bancarias.h \
+CMakeFiles/Sistemas_de_Contas_Bancarias.dir/Contas_Bancarias.c.obj: \
+ C:\Users\Thiago\Desktop\Nova\ pasta\Sistemas\ de\ Contas\ Bancarias\Contas_Bancarias.c \
+ C:\Users\Thiago\Desktop\Nova\ pasta\Sistemas\ de\ Contas\ Bancarias\Contas_Bancarias.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \

@@ -1,5 +1,10 @@
-#ifndef SISTEMA_DE_CONTAS_BANCARIAS_EM_LINGUAGEM_C_CONTAS_BANCARIAS_H
-#define SISTEMA_DE_CONTAS_BANCARIAS_EM_LINGUAGEM_C_CONTAS_BANCARIAS_H
+//
+// Created by Thiago on 04/12/2023.
+//
+
+#ifndef SISTEMAS_DE_CONTAS_BANCARIAS_CONTAS_BANCARIAS_H
+#define SISTEMAS_DE_CONTAS_BANCARIAS_CONTAS_BANCARIAS_H
+
 
 #define MAXIMO_CONTAS 100 /**< Define o número máximo de contas possiveis */
 
@@ -98,4 +103,5 @@ void imprimir(Conta *contas, int totalContas);
 void saldoGeral(Conta *contas, int totalContas);
 
 
-#endif //SISTEMA_DE_CONTAS_BANCARIAS_EM_LINGUAGEM_C_CONTAS_BANCARIAS_H
+
+#endif //SISTEMAS_DE_CONTAS_BANCARIAS_CONTAS_BANCARIAS_H
