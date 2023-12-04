@@ -275,6 +275,36 @@ void procurar(Conta *contas, int totalContas){
 
 /*-------------------------------------------------------------------------------------------------------------*/
 
+void listar(Conta *contas, int totalContas){
+
+    if (totalContas == 0)//verifica se não tem conta cadastrada
+    {
+        printf("Nenhuma conta cadastrada.\n");
+        return;
+    }
+
+    int i;
+    for (i = 0; i < totalContas; i++)//percorre todas as contas
+    {
+        //informações das contas
+        printf("Conta %d\n", contas[i].numero);
+        printf("Nome do cliente: %s\n", contas[i].cliente);
+
+        if (contas[i].especial == 1)//if para verificar o tipo da conta
+        {
+            printf("Tipo de cliente: 1 Especial\n");
+        }
+
+        else{
+            printf("Tipo de cliente: 0 Normal\n");
+        }
+        printf("Saldo: %.2f\n", contas[i].saldo);
+        printf("\n");
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
 void sacar(Conta *contas, int totalContas){
 
     int numeroConta;
