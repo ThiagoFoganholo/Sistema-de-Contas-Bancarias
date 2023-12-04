@@ -3,4 +3,4 @@ project(projeto_C C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(projeto_C main.c)
+add_executable(projeto_C main.c Contas_Bancarias.c)

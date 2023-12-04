@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "projeto_C::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-projeto_C-Debug-97500dd7ea0092fd714e.json",
+					"jsonFile" : "target-projeto_C-Debug-fb89937bee86027b2a12.json",
 					"name" : "projeto_C",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/rafae/OneDrive/\u00c1rea de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug",
-		"source" : "C:/Users/rafae/OneDrive/\u00c1rea de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias"
+		"build" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug",
+		"source" : "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias"
 	},
 	"version" : 
 	{
