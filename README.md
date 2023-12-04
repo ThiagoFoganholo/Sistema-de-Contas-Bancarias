@@ -45,7 +45,7 @@ Reforçando é necessário clonar o repositório em sua maquina, inserindo o com
 git clone https://github.com/ThiagoFoganholo/Sistema-de-Contas-Bancarias/branches
 ```
 
-Caso os codigos não rodem ao abaixar, é recomendado criar os arquivos com os mesmo nomes e colar os codigos la e rodar.
+Caso os codigos não rodem ao abaixar, é recomendado criar os arquivos com os mesmo nomes e colar os codigos nos arquivos criados e rodar o software, o codigo pode não rodar por incompatibilidade de maquinas.
 
 ## ⚙️ Executando os testes
 
