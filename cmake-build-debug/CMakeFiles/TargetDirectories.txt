@@ -1,0 +1,3 @@
+C:/Users/rafae/OneDrive/Área de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/projeto_C.dir
+C:/Users/rafae/OneDrive/Área de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rafae/OneDrive/Área de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/cmake-build-debug/CMakeFiles/rebuild_cache.dir
