@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj"
+  "CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj.d"
   "CMakeFiles/projeto_C.dir/main.c.obj"
   "CMakeFiles/projeto_C.dir/main.c.obj.d"
   "libprojeto_C.dll.a"

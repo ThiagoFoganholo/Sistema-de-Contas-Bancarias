@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/rafae/OneDrive/Área de Trabalho/Nova pasta/Sistema-de-Contas-Bancarias/main.c" "CMakeFiles/projeto_C.dir/main.c.obj" "gcc" "CMakeFiles/projeto_C.dir/main.c.obj.d"
+  "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/Contas_Bancarias.c" "CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj" "gcc" "CMakeFiles/projeto_C.dir/Contas_Bancarias.c.obj.d"
+  "C:/Users/Thiago/Desktop/Nova pasta/Sistema-de-Contas-Bancarias/main.c" "CMakeFiles/projeto_C.dir/main.c.obj" "gcc" "CMakeFiles/projeto_C.dir/main.c.obj.d"
   )
 
 # Targets to which this target links.
